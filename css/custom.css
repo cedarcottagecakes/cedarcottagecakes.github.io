@@ -3,10 +3,11 @@
 
 @font-face {
 	font-family: Agreable;
-	src: url('webfonts\AgreableScript.ttf') format('ttf');
+	src: url('https://cedarcottagecakes.github.io/webfonts/AgreableScript.ttf') format('ttf');
 	font-weight: normal;
 	font-style: normal;
 	font-variant-ligatures: normal;
+	font-display: swap;
 }
 @font-face {
     font-family: CassiaXLig;
@@ -14,6 +15,7 @@
          url('webfonts\CassiaXLig-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+	font-display: swap;
 }
 header h1 {
 	font-family: Agreable;
