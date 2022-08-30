@@ -40,6 +40,6 @@ header .display-4 {
 }
 @media (max-width: 700px){
 	header .display-4 {
-    font-size: 2em;
+    font-size: 1.75em;
 	}
 }
