@@ -18,10 +18,103 @@
        <h1 class="display-4">Cakes</h1>
     </div>
 </header>
-    <div class="container">
-       <div class="row text-center">
-          <div class="col-lg-6 offset-lg-3">Click outside the blue container to select this <strong>row</strong>. Columns are always contained within a row. <strong>Rows are indicated by a dashed grey line and rounded corners</strong>. </div>
-       </div>
+    <div class="container" text-align="center">
+		
+	<div class="row">
+	  <div class="col-md-1"></div>
+		<div class="col-md-10">
+			<div class="card">
+                <div class="card-body">
+				  <h4 class="card-title">Contact Kristen</h4>
+					<br>
+				<!-- Clippy form thing -->
+				<div class="row">
+			      <div class="col-1"></div>
+				  <clippy class="col-10">
+					  <label class="label sr-only" for="email">Copy to clipboard:</label>
+								<div class="copy-text input-group input-group-lg">
+								  <input type="text" class="text form-control" id="email" value="kristen@cedarcottagecakes.com" readonly>
+									<button class="input-group-append">Copy to clipboard</button>
+								</div>
+				  </clippy>
+				</div>
+					
+				<br><p class="card-text">Please send any questions or let me know what you need and I will follow up with you shortly!</p>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+		
+		<br>
+		
+	<div class="row">
+	  <div class="col-md-1"></div>
+		<div class="col-md-10">	
+		  <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="background-color: grey">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+			<div class="carousel-item active"> <img class="d-block mx-auto" src="images/Carousel_Placeholder.png" alt="First slide">
+				<div class="carousel-caption">
+					<h5>First slide Heading</h5>
+					<p>First slide Caption</p>
+				</div>
+			</div>
+			<div class="carousel-item"> <img class="d-block mx-auto" src="images/Carousel_Placeholder.png" alt="Second slide">
+				<div class="carousel-caption">
+					<h5>Second slide Heading</h5>
+					<p>Second slide Caption</p>
+				</div>
+			</div>
+			<div class="carousel-item"> <img class="d-block mx-auto" src="images/Carousel_Placeholder.png" alt="Third slide">
+				<div class="carousel-caption">
+					<h5>Third slide Heading</h5>
+					<p>Third slide Caption</p>
+				</div>
+			</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> 
+		  </div>
+		</div>
+	</div>
+
+
+                  <!-- VERY BASIC FORM
+					  <form action="mailto:" method="get" enctype="text/plain">
+						<div class="form-group input-group-lg">
+							<label class="sr-only" for="inputName1">Name:</label>
+							<input type="name" class="form-control" id="inputName1" placeholder="Name" required>
+						</div>
+							
+						<div class="form-group input-group-lg">
+							<label class="sr-only" for="inputEmail1">Email:</label>
+							<input type="email" class="form-control" id="inputEmail1" placeholder="Email" required>
+							<div><small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone else.</small></div>
+						</div>
+	
+						<div class="form-group input-group-lg">
+							<label class="sr-only" for="inputPhone1">Phone:</label>
+							<input type="phone" class="form-control" id="inputPhone1" placeholder="Phone Number" required>
+						</div>
+							
+						<div class="form-group input-group-lg">
+							<label class="sr-only" for="inputMessage1">Message:</label>
+							<textarea type="message" class="form-control" rows="5" id="inputMessage1" placeholder="Message" required></textarea>
+						</div>
+							
+							<button type="submit" class="btn btn-primary" name="submit" value="Send">Submit</button>
+					  </form>
+				</div>
+			</div>
+		</div>
+	</div>
+	-->
+				
+    <!-- GENERIC EXAMPLE CARDS
        <br>
        <hr>
        <br>
@@ -108,20 +201,22 @@
              </div>
           </div>
        </div>
+-->		
        <br>
        <hr>
        <div class="row">
           <div class="text-center col-lg-6 offset-lg-3">
-             <h4>Footer </h4>
-             <p>Copyright &copy; 2021 &middot; All Rights Reserved &middot; <a href="#" >My Website</a></p>
+             <p>Copyright &copy; 2022 &middot; All Rights Reserved &middot; <a href="https://www.cedarcottagecakes.com" >Cedar Cottage Cakes</a></p>
           </div>
        </div>
-    </div>
+  </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
     <script src="js/jquery-3.4.1.min.js"></script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed --> 
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.4.1.js"></script>
+
+  <script src="js/clippy.js"></script>
   </body>
 </html>
