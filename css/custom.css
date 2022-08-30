@@ -25,12 +25,21 @@ header .display-1 {
   	/* font-weight: 300; */
   	line-height: 1.2;
 }
-
-header .display-2 {
+@media (max-width: 700px){
+	header .display-1 {
+    font-size: 5em;
+	}
+}
+header .display-4 {
 	font-family: CassiaXLig;
-	font-size: 4rem;
+	font-size: 3.5rem;
 	/* font-weight: 300; */
 	line-height: 1.2;
 	text-transform: uppercase;
 	letter-spacing: 0.6em;
+}
+@media (max-width: 700px){
+	header .display-4 {
+    font-size: 2em;
+	}
 }
