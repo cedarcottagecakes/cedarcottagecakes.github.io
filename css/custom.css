@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: Agreable;
+	src: url('webfonts\AgreableScript.ttf') format('ttf');
+	font-weight: normal;
+	font-style: normal;
+	font-variant-ligatures: normal;
+}
+@font-face {
+    font-family: CassiaXLig;
+    src: url('webfonts\CassiaXLig-webfont.woff2') format('woff2'),
+         url('webfonts\CassiaXLig-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+header h1 {
+	font-family: Agreable;
+}
+header h2 {
+	font-family: CassiaXLig;
+}
+
+.display-4 {
+	font-family: Agreable;
+  	font-size: 3.5rem;
+  	/* font-weight: 300; */
+  	line-height: 1.2;
+}
