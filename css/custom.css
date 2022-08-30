@@ -2,31 +2,33 @@
 /* CSS Document */
 
 @font-face {
-	font-family: Agreable;
-	src: url('https://cedarcottagecakes.github.io/webfonts/AgreableScript.ttf') format('ttf');
+	font-family: 'Agreable';
+	src: url('https://cedarcottagecakes.github.io/webfonts/AgreableScript.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 	font-variant-ligatures: normal;
 	font-display: swap;
 }
 @font-face {
-    font-family: CassiaXLig;
-    src: url('webfonts\CassiaXLig-webfont.woff2') format('woff2'),
-         url('webfonts\CassiaXLig-webfont.woff') format('woff');
+    font-family: 'CassiaXLig';
+    src: url('https://cedarcottagecakes.github.io/webfonts/CassiaXLig-webfont.woff2') format('woff2'),
+         url('https://cedarcottagecakes.github.io/webfonts/CassiaXLig-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 	font-display: swap;
 }
-header h1 {
+header .display-1 {
 	font-family: Agreable;
-}
-header h2 {
-	font-family: CassiaXLig;
-}
-
-.display-4 {
-	font-family: Agreable;
-  	font-size: 3.5rem;
+  	font-size: 6rem;
   	/* font-weight: 300; */
   	line-height: 1.2;
+}
+
+header .display-2 {
+	font-family: CassiaXLig;
+	font-size: 2.3rem;
+	/* font-weight: 300; */
+	line-height: 1.2;
+	text-transform: uppercase;
+	letter-spacing: 0.6em;
 }
