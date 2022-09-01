@@ -18,7 +18,15 @@
 .color-secondary-2-2 { color: #EFECEF }
 .color-secondary-2-3 { color: #AE99B3 }
 .color-secondary-2-4 { color: #8F6E98 }
-
+.bg-light {
+	background-color: #FFF1EE !important;
+}
+.bg-med {
+	background-color: #D1C7D4 !important;
+}
+.bg-dark {
+	background-color: #8F6E98 !important;
+}
 body {
 	background-color: #FFF1EE;
 	overflow-x: hidden;
@@ -31,7 +39,6 @@ a:hover {
 }
 @font-face {
 	font-family: 'Agreable';
-	/* src: url('https://cedarcottagecakes.github.io/webfonts/AgreableScript.ttf') format('truetype'); */
 	src: url('../webfonts/AgreableScript.woff2') format('woff2'),
          url('../webfonts/AgreableScript.woff') format('woff');
 	font-weight: normal;
@@ -50,18 +57,27 @@ a:hover {
 header .display-1 {
 	font-family: Agreable;
   	font-size: 10rem;
-  	/* font-weight: 300; */
   	line-height: 1.2;
+	color: white;
 }
 @media (max-width: 700px){
 	header .display-1 {
     font-size: 5em;
 	}
 }
+.display-1 {
+	font-family: Agreable;
+  	font-size: 5.5rem;
+	color: #5a3863;
+}
+@media (max-width: 700px){
+	.display-1 {
+    font-size: 3.5rem;
+	}
+}
 header .display-4 {
 	font-family: CassiaXLig;
 	font-size: 3.5rem;
-	/* font-weight: 300; */
 	line-height: 1.2;
 	text-transform: uppercase;
 	letter-spacing: 0.6em;
@@ -73,8 +89,19 @@ header .display-4 {
     font-size: 1.75em;
 	}
 }
-header {
-	color: #5a3863;
+header .jumbotron {
+	margin-bottom: 0;
+	padding: 1.5rem 1rem;
+	background: rgb(143,110,152);
+	background: radial-gradient(circle, rgba(143,110,152,1) 0%, rgba(143,110,152,0.5) 100%),url("../images/jumbotron_bg.jpg") no-repeat center center;;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	color: #FFFFFF;
+}
+.jumbotron {
+	margin-bottom: 0;
+	padding: 1.5rem 1rem;
 }
 footer {
 	padding-top: 1.5rem;
@@ -83,15 +110,17 @@ footer {
 	width: 100%;
 	height: 100%;
 }
-.card {
-	/*border: none; */
-	background-color: transparent;
-	margin-top: 1.5rem;
+.card-title {
+	font-family: CassiaXLig;
+	font-size: 1.5rem;
+	font-weight: 800;
 }
-.jumbotron{
-	margin-bottom: 0;
-	padding: 1.5rem 1rem;
-	background-color: #D1C7D4;
+.card {
+	border: none;
+	background-color: transparent;
+}
+.card-text {
+	font-size: 1.2rem;
 }
 .form-control {
 	color: #5a3863;
@@ -100,6 +129,9 @@ footer {
 .form-control:disabled, .form-control[readonly] {
   background-color: transparent;
   opacity: 1;
+}
+.clear {
+    clear: both;
 }
 clippy .copy-text button {
   padding:10px;
