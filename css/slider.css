@@ -1,0 +1,20 @@
+@charset "UTF-8";
+slider .slider {
+  position: auto;
+  width: 100%;
+  top: calc(50% – 97.25px);
+  overflow: hidden; 
+  margin-top: 2rem;
+}
+  slider .slider .slider-row {
+    width: 3000px;
+    height: 311px;
+    background-image: url(../images/slider_cakes_sml.jpg);
+    background-size: 3000px 311px;
+    animation: slide 50s linear infinite; }
+
+@keyframes slide {
+  from {
+    background-position-x: 0; }
+  to {
+    background-position-x: -3000px; } }

@@ -5,24 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cedar Cottage Cakes</title>
-
-    <!-- Bootstrap -->
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
 	<link href="css/custom.css" rel="stylesheet">
-
+	<link href="css/slider.css" rel="stylesheet">
   </head>
-  <body>
-<header>
-    <div class="jumbotron jumbotron-fluid text-center">
-       <h1 class="display-1">Cedar Cottage</h1>
-       <h1 class="display-4">Cakes</h1>
-    </div>
-</header>
-    <div class="container" text-align="center">
-     
+  <body class="d-flex flex-column min-vh-100">
+	<header>
+		<div class="jumbotron jumbotron-fluid text-center">
+		   <h1 class="display-1">Cedar Cottage</h1>
+		   <h1 class="display-4">Cakes</h1>
+		</div>
+	</header>
+
+    <div class="container"><!-- Contains the whole page body -->
+
+	<div class="row text-center">
+		<div class="card col-lg-10 offset-lg-1">
+			<div class="card-body">
+				<div class="row">
+					<div class="col-lg-3 offset-lg-4"><a href="https://www.instagram.com/cedarcottagecakes"><h4 class="d-lg-inline-flex">@cedarcottagecakes</h4></a></div>
+					<div class="col-lg-1"><a href="https://www.instagram.com/cedarcottagecakes"><img src="images/ig_logo.png" height="40" width="40" alt="Instagram" class="img-fluid"></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
 		
 	<div class="row text-center">
-		
 		<div class="card col-lg-10 offset-lg-1">
 			<div class="card-body">
 			  <h4 class="card-title">Contact Kristen</h4>
@@ -42,9 +50,9 @@
 		</div>
 	</div>
 		
-		<br>
-		<br>
-		
+
+<!-- CAROUSEL CAROUSEL CAROUSEL		
+	<br>		
 	<div class="row">
 	  <div class="col-md-1"></div>
 		<div class="col-md-10">	
@@ -78,22 +86,23 @@
 		  </div>
 		</div>
 	</div>
+-->
+	</div> <!-- CONTAINER END -->
+	<slider>
+			<div class="slider">
+				<div class="slider-row"></div>
+			</div>
+	</slider>
 
-       <br>
-       <hr>
-       <div class="row">
+	<footer class="row mt-auto">
           <div class="text-center col-lg-6 offset-lg-3">
-             <p>Copyright &copy; 2022 &middot; All Rights Reserved &middot; <a href="https://www.cedarcottagecakes.com" >Cedar Cottage Cakes</a></p>
+             <p>Copyright &copy; 2022 &middot; All Rights Reserved <br><a href="https://www.cedarcottagecakes.com">Cedar Cottage Cakes</a></p>
           </div>
-       </div>
-  </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	</footer>
+  
     <script src="js/jquery-3.4.1.min.js"></script>
-
-    <!-- Include all compiled plugins (below), or include individual files as needed --> 
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.4.1.js"></script>
-
-  <script src="js/clippy.js"></script>
+	<script src="js/clippy.js"></script>
   </body>
 </html>
